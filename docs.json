@@ -47,7 +47,8 @@
     "socials": {
       "x": "https://x.com/HetrixHosting",
       "github": "https://github.com/HetrixGroup",
-      "discord": "https://discord.gg/hetrixhosting"
+      "discord": "https://discord.gg/hetrixhosting",
+      "website": "https://hetrixhosting.com"
     }
   },
   "favicon": "/images/logo.png"
