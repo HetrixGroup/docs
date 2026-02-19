@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "HetrixHosting Docs",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -26,7 +26,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@hetrixhosting.com"
       }
     ],
     "primary": {
@@ -49,9 +49,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/HetrixHosting",
+      "github": "https://github.com/HetrixGroup",
+      "discord": "https://discord.gg/hetrixhosting"
     }
   }
 }
