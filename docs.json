@@ -7,7 +7,6 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
@@ -18,10 +17,7 @@
       }
     ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "logo": "/images/banner.png",
   "navbar": {
     "links": [
       {
@@ -53,5 +49,6 @@
       "github": "https://github.com/HetrixGroup",
       "discord": "https://discord.gg/hetrixhosting"
     }
-  }
+  },
+  "favicon": "/images/logo.png"
 }
