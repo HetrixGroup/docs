@@ -9,7 +9,14 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "groups": []
+    "tabs": [
+      {
+        "tab": "GamServers",
+        "pages": [
+          "coming-soon"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
