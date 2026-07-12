@@ -11,8 +11,65 @@
     "tabs": [
       {
         "tab": "GamServers",
-        "pages": [
-          "coming-soon"
+        "groups": [
+          {
+            "group": "Erste Schritte",
+            "icon": "rocket",
+            "pages": [
+              "introduction",
+              "erste-schritte",
+              "gamepanel"
+            ]
+          },
+          {
+            "group": "Server verwalten",
+            "icon": "server",
+            "pages": [
+              "server-einrichten",
+              "dateien",
+              "datenbanken",
+              "backups-und-snapshots",
+              "zeitplaene",
+              "benutzer",
+              "server-importer"
+            ]
+          },
+          {
+            "group": "Minecraft",
+            "icon": "cube",
+            "pages": [
+              "minecraft-server",
+              "minecraft-plugins",
+              "minecraft-modpacks",
+              "minecraft-properties"
+            ]
+          },
+          {
+            "group": "Rust",
+            "icon": "gun",
+            "pages": [
+              "rust-server",
+              "rust-plugins",
+              "rust-wipe"
+            ]
+          },
+          {
+            "group": "Sicherheit und Leistung",
+            "icon": "shield-halved",
+            "pages": [
+              "sicherheit",
+              "leistung"
+            ]
+          },
+          {
+            "group": "Konto und Support",
+            "icon": "headset",
+            "pages": [
+              "support",
+              "zahlung-und-rueckerstattung",
+              "faq"
+            ]
+          }
         ]
       }
     ]
@@ -22,7 +79,7 @@
     "links": [
       {
         "label": "Get Support",
-        "href": "mailto:support@hetrixhosting.com"
+        "href": "https://hetrixhosting.com/support"
       }
     ],
     "primary": {

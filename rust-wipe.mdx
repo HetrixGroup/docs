@@ -1,0 +1,52 @@
+---
+title: "Rust Wipe planen"
+description: "Erstelle und plane Wipes für deinen Rust Server mit Karte, Seed und mehr."
+icon: "broom"
+---
+
+Ein Wipe setzt deinen Rust Server zurück und startet eine frische Runde. Im Bereich **Rust Wipe** erstellst du Wipes und planst sie automatisch für einen bestimmten Zeitpunkt.
+
+## Wipe erstellen
+
+Im Bereich Create Wipe legst du fest, was beim Wipe passieren soll.
+
+<Steps>
+  <Step title="Servername und Beschreibung">
+    Lege den Servernamen und die Beschreibung fest, die beim Wipe gesetzt werden. Über Load Current übernimmst du die aktuellen Werte. Die Platzhalter %DAY% und %MONTH% werden automatisch durch Tag und Monat des Wipes ersetzt.
+  </Step>
+  <Step title="Karte festlegen">
+    Gib eine Kartengröße und einen Seed an, nutze einen zufälligen Seed über Random Seed oder wähle mit Random Level eine zufällige Karte aus deiner Kartenliste. Alternativ hinterlegst du eine eigene Karte über Custom Map URL.
+  </Step>
+  <Step title="Zu löschende Dateien wählen">
+    Lege über Select Files fest, welche Dateien beim Wipe entfernt werden. Du kannst Platzhalter nutzen, zum Beispiel `/server/rust/*.map`, um alle Kartendateien zu löschen.
+  </Step>
+  <Step title="Blueprints">
+    Mit der Option Wipe Blueprints entscheidest du, ob auch die erlernten Baupläne der Spieler zurückgesetzt werden.
+  </Step>
+</Steps>
+
+<Warning>
+  Es wird nichts von selbst gelöscht. Nur die Dateien, die du unter Files angibst, werden beim Wipe entfernt. Prüfe deine Angaben sorgfältig und erstelle vorher ein Backup.
+</Warning>
+
+## Wipe planen
+
+Rechts findest du die Bereiche zum Planen deiner Wipes.
+
+<CardGroup cols={2}>
+  <Card title="Timezone" icon="globe">
+    Lege die Zeitzone fest, die für alle geplanten Wipes gilt. Darunter siehst du die aktuelle Uhrzeit.
+  </Card>
+
+  <Card title="Scheduled Wipes" icon="calendar">
+    Zeigt deine geplanten Wipes mit Datum und Uhrzeit. Du kannst sie bearbeiten oder löschen.
+  </Card>
+
+  <Card title="Map List" icon="map">
+    Hinterlege eine Liste von Karten über Add Map, aus der bei Random Level zufällig gewählt wird.
+  </Card>
+</CardGroup>
+
+<Tip>
+  Viele Server wipen in festen Abständen. Plane deine Wipes im Voraus, damit deine Community weiß, wann es wieder frisch losgeht.
+</Tip>
