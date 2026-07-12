@@ -1,43 +1,99 @@
 ---
 title: "Das Gamepanel"
-description: "Verwalte deine Server effizienter als je zuvor."
+description: "Aufbau und Bereiche deines Gamepanels im Überblick."
 icon: "gauge"
 ---
 
-Mit dem Gamepanel verwaltest du deine Server komfortabel und effizient. Es bietet eine Echtzeit Konsole mit Metriken und direkter Befehlseingabe sowie alle Werkzeuge, die du für den Betrieb brauchst.
+Das Gamepanel ist deine zentrale Anlaufstelle. Von hier steuerst du deinen Server, verwaltest Dateien, installierst Inhalte und passt alle Einstellungen an. Diese Seite erklärt den Aufbau des Panels.
 
-## Funktionen im Überblick
+## Server auswählen und Statusleiste
+
+Ganz oben findest du die Auswahl **Select a server**. Wenn du mehrere Server hast, wechselst du hier zwischen ihnen.
+
+Direkt darunter siehst du die Statusleiste deines Servers mit allen wichtigen Werten auf einen Blick:
 
 <CardGroup cols={2}>
-  <Card title="Live Konsole" icon="terminal">
-    Beobachte deinen Server in Echtzeit und gib Befehle sofort ein.
+  <Card title="Status und Adresse" icon="circle-dot">
+    Name, Status (Online oder Offline) sowie Adresse und Port deines Servers.
   </Card>
 
-  <Card title="Datei Manager" icon="folder-open">
-    Verwalte alle Serverdateien direkt im Browser.
+  <Card title="Auslastung" icon="gauge-high">
+    Aktuelle CPU Last, belegter Arbeitsspeicher und belegter Speicherplatz.
+  </Card>
+</CardGroup>
+
+Rechts in der Statusleiste steuerst du deinen Server mit den Schaltflächen **Start**, **Restart** und **Stop**.
+
+## Bereiche im Panel
+
+Das Menü am linken Rand ist in drei Bereiche gegliedert.
+
+### General
+
+<CardGroup cols={2}>
+  <Card title="Dashboard" icon="table-columns">
+    Übersicht deines Servers mit den wichtigsten Informationen.
   </Card>
 
-  <Card title="Benutzerverwaltung" icon="users-gear">
-    Steuere Zugriffe und Rollen für dein Team.
+  <Card title="Console" icon="terminal">
+    Live Konsole mit Serverausgaben in Echtzeit und direkter Befehlseingabe.
   </Card>
 
-  <Card title="Plugin Installer" icon="puzzle-piece">
-    Installiere und verwalte Plugins mit wenigen Klicks.
+  <Card title="Settings" icon="sliders">
+    Grundlegende Servereinstellungen.
   </Card>
 
-  <Card title="Versionsverwaltung" icon="code-branch">
-    Wechsle schnell und einfach zwischen Versionen.
+  <Card title="Activity" icon="clock-rotate-left">
+    Protokoll der letzten Aktionen auf deinem Server.
+  </Card>
+</CardGroup>
+
+### Management
+
+<CardGroup cols={2}>
+  <Card title="Files" icon="folder-open">
+    Datei Manager zum Ansehen, Hochladen und Bearbeiten aller Serverdateien.
+  </Card>
+
+  <Card title="Plugins" icon="puzzle-piece">
+    Plugins durchsuchen und verwalten. Bei Rust Servern heißt der Bereich Rust Plugins.
+  </Card>
+
+  <Card title="Databases" icon="database">
+    Datenbanken für deinen Server anlegen und verwalten.
+  </Card>
+
+  <Card title="Backups" icon="box-archive">
+    Snapshots erstellen und wiederherstellen.
+  </Card>
+
+  <Card title="Network" icon="network-wired">
+    Ports und Adressen deines Servers verwalten.
+  </Card>
+</CardGroup>
+
+Je nach Spiel kommen weitere Bereiche hinzu. Bei Minecraft sind das **Modpacks**, **Properties** und **Versions**, bei Rust die Bereiche **Rust Wipe** und **Rust Plugins**.
+
+### Configuration
+
+<CardGroup cols={2}>
+  <Card title="Schedules" icon="calendar">
+    Automatische Aufgaben zeitgesteuert ausführen.
+  </Card>
+
+  <Card title="Users" icon="users">
+    Weitere Personen einladen und Rechte vergeben.
+  </Card>
+
+  <Card title="Startup" icon="rocket">
+    Startparameter und Startverhalten deines Servers.
+  </Card>
+
+  <Card title="Server Importer" icon="file-import">
+    Daten von einem anderen Anbieter importieren.
   </Card>
 </CardGroup>
 
 <Note>
-  Einige dieser Funktionen sind nur für bestimmte Spiele verfügbar. Details findest du auf der Seite des jeweiligen Spiels.
+  Welche Bereiche genau sichtbar sind, hängt vom jeweiligen Spiel ab. Nicht jeder Bereich ist bei jedem Spiel verfügbar.
 </Note>
-
-## Live Konsole nutzen
-
-In der Live Konsole siehst du alle Serverausgaben in Echtzeit. Du kannst Befehle direkt eingeben und die Reaktion des Servers sofort verfolgen. So behebenst du Probleme schnell und behältst die Leistung deines Servers im Blick.
-
-## Dateien verwalten
-
-Der Datei Manager erlaubt dir, Serverdateien anzusehen, hochzuladen und zu bearbeiten, ohne zusätzliche Software. Ideal für Konfigurationen, Plugins und eigene Inhalte.

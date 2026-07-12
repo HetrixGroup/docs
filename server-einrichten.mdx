@@ -4,41 +4,45 @@ description: "Schritt für Schritt zu deinem eigenen Gameserver."
 icon: "server"
 ---
 
-Diese Anleitung führt dich durch die grundlegende Einrichtung deines Gameservers im Gamepanel. Die Schritte gelten für die meisten Spiele. Spielspezifische Details findest du auf den jeweiligen Unterseiten.
+Diese Anleitung führt dich durch die grundlegende Einrichtung deines Gameservers im Gamepanel. Die Schritte gelten für die meisten Spiele. Spielspezifische Details findest du in den Bereichen Minecraft und Rust.
 
 ## Server starten und stoppen
 
+Deinen Server steuerst du über die Schaltflächen in der Statusleiste ganz oben sowie im Bereich Console.
+
 <Steps>
-  <Step title="Server im Panel öffnen">
-    Melde dich im Gamepanel an und wähle deinen Server aus der Übersicht aus.
+  <Step title="Server auswählen">
+    Wähle deinen Server oben über die Auswahl Select a server aus.
   </Step>
   <Step title="Server starten">
-    Klicke auf Starten. Beim ersten Start werden alle benötigten Dateien vorbereitet. Das kann einen Moment dauern.
+    Klicke in der Statusleiste auf Start. Beim ersten Start werden alle benötigten Dateien vorbereitet. Das kann einen Moment dauern.
   </Step>
   <Step title="Status prüfen">
-    Sobald die Konsole anzeigt, dass der Server bereit ist, kannst du über die angezeigte Adresse und den Port beitreten.
+    Öffne den Bereich Console. Sobald dort steht, dass der Server bereit ist, kannst du über die angezeigte Adresse und den Port beitreten.
   </Step>
 </Steps>
 
+Mit Restart startest du den Server neu und mit Stop fährst du ihn herunter.
+
 ## Grundeinstellungen anpassen
 
-Die wichtigsten Einstellungen deines Servers passt du direkt im Panel an. Dazu gehören zum Beispiel der Servername, die maximale Spieleranzahl, das Passwort und spielspezifische Optionen.
+Die wichtigsten Grundeinstellungen findest du im Bereich Settings. Weitere Optionen stehen je nach Spiel an anderer Stelle, zum Beispiel bei Minecraft im Bereich Properties.
 
 <Steps>
   <Step title="Einstellungen öffnen">
-    Wechsle im Panel in den Bereich Einstellungen deines Servers.
+    Wechsle im Panel in den Bereich Settings.
   </Step>
   <Step title="Werte anpassen">
-    Ändere die gewünschten Werte, etwa Servername oder Spieleranzahl. Speichere deine Änderungen.
+    Ändere die gewünschten Werte und speichere deine Änderungen.
   </Step>
   <Step title="Server neu starten">
-    Viele Einstellungen werden erst nach einem Neustart aktiv. Starte deinen Server neu, damit die Änderungen greifen.
+    Viele Einstellungen werden erst nach einem Neustart aktiv. Nutze dazu Restart.
   </Step>
 </Steps>
 
 ## Konfigurationsdateien bearbeiten
 
-Für feinere Anpassungen nutzt du den Datei Manager im Panel. Dort öffnest und bearbeitest du Konfigurationsdateien direkt im Browser.
+Für feinere Anpassungen nutzt du den Bereich Files. Dort öffnest und bearbeitest du Konfigurationsdateien direkt im Browser.
 
 <Warning>
   Bearbeite Konfigurationsdateien nur, wenn du weißt, was die einzelnen Werte bewirken. Erstelle vor größeren Änderungen immer ein Backup, damit du bei Bedarf zurück kannst.
@@ -46,8 +50,14 @@ Für feinere Anpassungen nutzt du den Datei Manager im Panel. Dort öffnest und 
 
 ## Server erreichbar machen
 
-Deine Serveradresse und der Port stehen im Panel in der Serverübersicht. Gib diese Adresse an deine Mitspieler weiter, damit sie beitreten können. Der Schutz über Cloudflare ist bereits aktiv und muss von dir nicht eingerichtet werden.
+Deine Serveradresse und der Port stehen in der Statusleiste. Gib diese Adresse an deine Mitspieler weiter, damit sie beitreten können. Der Schutz über Cloudflare ist bereits aktiv und muss von dir nicht eingerichtet werden.
 
-<Card title="Plugins und Mods installieren" icon="puzzle-piece" href="/plugins-und-mods">
-  Erweitere deinen Server mit Plugins und Mods.
-</Card>
+<CardGroup cols={2}>
+  <Card title="Minecraft Server einrichten" icon="cube" href="/minecraft-server">
+    Version wählen, Plugins und Modpacks installieren.
+  </Card>
+
+  <Card title="Rust Server einrichten" icon="gun" href="/rust-server">
+    Rust Plugins installieren und Wipes planen.
+  </Card>
+</CardGroup>

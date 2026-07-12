@@ -17,24 +17,46 @@
             "icon": "rocket",
             "pages": [
               "introduction",
-              "erste-schritte"
+              "erste-schritte",
+              "gamepanel"
             ]
           },
           {
-            "group": "Server einrichten",
+            "group": "Server verwalten",
             "icon": "server",
             "pages": [
               "server-einrichten",
-              "minecraft-server",
-              "plugins-und-mods",
-              "backups-und-snapshots"
+              "dateien",
+              "datenbanken",
+              "backups-und-snapshots",
+              "zeitplaene",
+              "benutzer",
+              "server-importer"
             ]
           },
           {
-            "group": "Verwaltung",
-            "icon": "sliders",
+            "group": "Minecraft",
+            "icon": "cube",
             "pages": [
-              "gamepanel",
+              "minecraft-server",
+              "minecraft-plugins",
+              "minecraft-modpacks",
+              "minecraft-properties"
+            ]
+          },
+          {
+            "group": "Rust",
+            "icon": "gun",
+            "pages": [
+              "rust-server",
+              "rust-plugins",
+              "rust-wipe"
+            ]
+          },
+          {
+            "group": "Sicherheit und Leistung",
+            "icon": "shield-halved",
+            "pages": [
               "sicherheit",
               "leistung"
             ]
