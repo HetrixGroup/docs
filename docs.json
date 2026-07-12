@@ -10,7 +10,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "GamServers",
+        "tab": "HetrixHosting Docs",
         "groups": [
           {
             "group": "Erste Schritte",
@@ -74,7 +74,11 @@
       }
     ]
   },
-  "logo": "/images/banner.png",
+  "logo": {
+    "light": "/images/banner.png",
+    "dark": "/images/banner.png",
+    "href": "https://hetrixhosting.com/"
+  },
   "navbar": {
     "links": [
       {
