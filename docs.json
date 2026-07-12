@@ -11,8 +11,43 @@
     "tabs": [
       {
         "tab": "GamServers",
-        "pages": [
-          "coming-soon"
+        "groups": [
+          {
+            "group": "Erste Schritte",
+            "icon": "rocket",
+            "pages": [
+              "introduction",
+              "erste-schritte"
+            ]
+          },
+          {
+            "group": "Server einrichten",
+            "icon": "server",
+            "pages": [
+              "server-einrichten",
+              "minecraft-server",
+              "plugins-und-mods",
+              "backups-und-snapshots"
+            ]
+          },
+          {
+            "group": "Verwaltung",
+            "icon": "sliders",
+            "pages": [
+              "gamepanel",
+              "sicherheit",
+              "leistung"
+            ]
+          },
+          {
+            "group": "Konto und Support",
+            "icon": "headset",
+            "pages": [
+              "support",
+              "zahlung-und-rueckerstattung",
+              "faq"
+            ]
+          }
         ]
       }
     ]
